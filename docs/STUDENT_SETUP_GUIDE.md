@@ -110,7 +110,28 @@ Open your browser to `http://127.0.0.1:8000/`. You should see the API root or a 
 
 To run the full application, you will also need the frontend.
 
-### A. Clone the Frontend Repository
+### A. Install Node.js (v24 LTS)
+
+The frontend requires Node.js JavaScript runtime.
+
+**Windows:**
+1.  Download the **v24 (LTS)** installer from [nodejs.org](https://nodejs.org/).
+2.  Run the installer and follow the prompts.
+
+**macOS:**
+1.  We recommend using `nvm` (Node Version Manager) or Homebrew.
+2.  **Homebrew**:
+    ```bash
+    brew install node@24
+    brew link node@24
+    ```
+3.  **Verify**:
+    ```bash
+    node -v
+    # Should output v24.x.x
+    ```
+
+### B. Clone the Frontend Repository
 
 Open a **new** terminal window (keep the backend running) and run:
 
